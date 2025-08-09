@@ -1,2 +1,2 @@
 # WIFI-PWM-LED-Dimmer
-Dim the ESP32 onboard LED through WIFI by sending UDP packets. Quite simple code using ESP-IDF abstraction layer. Made as a start to a PWM parser that I will use in the future. 
+Dim the ESP32 onboard LED through WIFI by sending UDP packets. Quite simple code using ESP-IDF abstraction layer. Made as a start to a PWM parser that I will use in the future. If using to test, create a blank ESP-IDF project, then copy code and build project using "idf.py build". ESP-IDF will handle makefiles, linker, and startup script for you. Compile the test separately and run to see your onboard LED dim!
